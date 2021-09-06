@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px auto;
+  width: 85%;
+  text-decoration: none;
+}
+
+header img.logo {
+  width: 20%;
+}
+
+header .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .nav-menu .nav-item {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+header .nav-menu .nav-item .nav-link {
+  text-decoration: none;
+}
+
+header .hamburger {
+  visibility: hidden;
+}
+
+header button {
+  padding: 5px;
+  color: #fff;
+  background-color: #fa5757;
+  color: 1px solid #fa5757;
+  border-radius: 5px;
+  width: 95px;
+  margin-top: -5px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row wrap;
+          flex-direction: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+  margin: 90px auto;
+  position: relative;
+}
+
+.hero_text {
+  width: 40%;
+  margin-top: 80px;
+}
+
+.hero_text h1 {
+  font-size: 3rem;
+  margin-bottom: 9px;
+  color: #252b46;
+}
+
+.hero_text p {
+  color: #9194a1;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero_img {
+  width: 100%;
+  margin-left: 28px;
+  z-index: 100;
+  position: relative;
+}
+
+.hero_button .chrome {
+  background: #5368df;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.hero_button .chrome:hover {
+  background: #fff;
+  color: #5368df;
+}
+
+.hero_button .firefox {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  color: #9194a1;
+}
+
+.hero_button .firefox:hover {
+  background: #fff;
+  color: #5368df;
+}
+
+.hero .blue_background {
+  overflow: hidden;
+  position: absolute;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 345px;
+  height: 230px;
+  background-color: #5368df;
+  border-radius: 70px 0 0 70px;
+  bottom: 0;
+  left: 900px;
+}
+
+body {
+  background: #fff;
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1;
+}
+
+h1 h2 h3 {
+  font-weight: 400;
+}

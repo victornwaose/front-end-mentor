@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 85%;
+  text-decoration: none;
+}
+header img.logo {
+  width: 20%;
+}
+header .nav-menu {
+  display: flex;
+  list-style: none;
+}
+header .nav-menu .nav-item {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+header .nav-menu .nav-item .nav-link {
+  text-decoration: none;
+}
+header .hamburger {
+  visibility: hidden;
+}
+header button {
+  padding: 5px;
+  color: #fff;
+  background-color: #fa5757;
+  color: 1px solid #fa5757;
+  border-radius: 5px;
+  width: 95px;
+  margin-top: -5px;
+}

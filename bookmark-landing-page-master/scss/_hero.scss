@@ -1,0 +1,65 @@
+.hero{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: 90px auto;
+    position: relative;
+
+    &_text{
+        width: 40%;
+        margin-top: 80px;
+
+        h1{
+            font-size: 3rem;
+            margin-bottom: 9px;
+            color: hsl(229, 31%, 21%) ;
+        }
+        p{
+            color: hsl(229, 8%, 60%);
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+    &_img {
+        width: 100%;
+        margin-left: 28px;
+        z-index: 100;
+        position: relative;
+    }
+    &_button {
+        .chrome{
+            background: hsl(231, 69%, 60%);
+            padding: 10px;
+            border-radius: 5px;
+            color: #fff;
+            &:hover{
+                background: #fff;
+                color: hsl(231, 69%, 60%);;
+            }
+        }
+        .firefox{
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            color: hsl(229, 8%, 60%);
+            &:hover{
+                background: #fff;
+                color: hsl(231, 69%, 60%);;
+            }
+                
+        }
+        }
+        .blue_background {
+            overflow: hidden;
+            position: absolute;
+            align-items: flex-end;
+            width: 345px;
+            height: 230px;
+            background-color: hsl(231, 69%, 60%);
+            border-radius: 70px 0 0 70px;
+            bottom: 0;
+            left: 900px;
+           
+        }
+}
