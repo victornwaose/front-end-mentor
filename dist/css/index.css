@@ -96,6 +96,7 @@ header button {
   padding: 10px;
   border-radius: 5px;
   color: #fff;
+  border-color: transparent;
 }
 
 .hero_button .chrome:hover {
@@ -108,6 +109,7 @@ header button {
   padding: 10px;
   border-radius: 5px;
   color: #9194a1;
+  border-color: transparent;
 }
 
 .hero_button .firefox:hover {
@@ -127,6 +129,108 @@ header button {
   border-radius: 70px 0 0 70px;
   bottom: 0;
   left: 900px;
+}
+
+.feature {
+  margin: 10 auto;
+  width: 85%;
+}
+
+.feature h1 {
+  font-size: 2rem;
+  margin-bottom: 9px;
+  color: #252b46;
+  text-align: center;
+}
+
+.feature p {
+  color: #9194a1;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.bookmark {
+  position: relative;
+  margin: 10px auto;
+  width: 85%;
+}
+
+.bookmark .link {
+  width: 230px;
+  list-style: none;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 20px;
+  border-bottom: 1px solid #9194a1;
+  cursor: pointer;
+}
+
+.bookmark .link:active {
+  border-bottom: 7px solid #fa5757;
+}
+
+.bookmark .link:hover {
+  color: #fa5757;
+}
+
+.bookmark .content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.bookmark .content.active {
+  display: block;
+}
+
+.bookmark .content img {
+  width: 30%;
+  z-index: 100;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+.bookmark .content_text {
+  margin-top: 40px;
+  margin-left: 65px;
+  width: 40%;
+}
+
+.bookmark .content_text h1 {
+  font-size: 2rem;
+  margin-bottom: 9px;
+  color: #252b46;
+}
+
+.bookmark .content_text p {
+  color: #9194a1;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.bookmark .content_text button {
+  padding: 10px;
+  background-color: #5368df;
+  color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.bookmark .background {
+  width: 590px;
+  height: 200px;
+  background: #5368df;
+  position: absolute;
+  right: 933px;
+  border-radius: 0 70px 70px 0;
+  bottom: 0;
 }
 
 body {

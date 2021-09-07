@@ -31,6 +31,7 @@
   padding: 10px;
   border-radius: 5px;
   color: #fff;
+  border-color: transparent;
 }
 .hero_button .chrome:hover {
   background: #fff;
@@ -41,6 +42,7 @@
   padding: 10px;
   border-radius: 5px;
   color: #9194a1;
+  border-color: transparent;
 }
 .hero_button .firefox:hover {
   background: #fff;
