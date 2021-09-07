@@ -1,0 +1,88 @@
+.downloads {
+    width: 85%;
+    margin: 10px auto;
+    
+    
+    h1{
+        font-size: 2rem;
+        margin-bottom: 9px;
+        color: hsl(229, 31%, 21%) ;
+        text-align: center;
+    }
+    p{
+        color: hsl(229, 8%, 60%);
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .download{
+        display: flex;
+        position: relative;
+
+        &_chrome {
+            position: relative;
+            margin-bottom: 50px;
+            width: 28%;
+            box-shadow: 10px 10px 10px 10px #888888;
+            text-align: center;
+            height: 290px;
+            border-radius: 5px;
+            img {
+                margin-top: 20px;
+            }
+           button{
+            margin-top: 10px;
+            padding: 15px;
+            background-color: hsl(231, 69%, 60%);
+            color: #fff;
+            border-radius: 5px;
+            border-color: transparent;
+           } 
+        }
+        &_firefox {
+            position: absolute;
+            margin-bottom: 50px;
+            width: 28%;
+            box-shadow: 10px 10px 10px 10px #888888;
+            text-align: center;
+            height: 290px;
+            left: 380px;
+            top: 61px;
+            border-radius: 5px;
+            img {
+                margin-top: 20px;
+            }
+           button{
+            margin-top: 10px;
+            padding: 15px;
+            background-color: hsl(231, 69%, 60%);
+            color: #fff;
+            border-radius: 5px;
+            border-color: transparent;
+           } 
+        } 
+        &_opera {
+            position: absolute;
+            margin-bottom: 50px;
+            width: 28%;
+            box-shadow: 10px 10px 10px 10px #888888;
+            text-align: center;
+            height: 290px;
+            left: 780px;
+            top: 120px;
+            border-radius: 5px;
+            img {
+                margin-top: 20px;
+            }
+           button{
+            margin-top: 10px;
+            padding: 15px;
+            background-color: hsl(231, 69%, 60%);
+            color: #fff;
+            border-radius: 5px;
+            border-color: transparent;
+           } 
+        } 
+    }
+   
+}

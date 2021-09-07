@@ -1,0 +1,16 @@
+.questions {
+  width: 85%;
+  margin: 10px auto;
+}
+.questions h1 {
+  font-size: 2rem;
+  margin-bottom: 9px;
+  color: #252b46;
+  text-align: center;
+}
+.questions p {
+  color: #9194a1;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}

@@ -233,6 +233,108 @@ header button {
   bottom: 0;
 }
 
+.downloads {
+  width: 85%;
+  margin: 10px auto;
+}
+
+.downloads h1 {
+  font-size: 2rem;
+  margin-bottom: 9px;
+  color: #252b46;
+  text-align: center;
+}
+
+.downloads p {
+  color: #9194a1;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.downloads .download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.downloads .download_chrome {
+  position: relative;
+  margin-bottom: 50px;
+  width: 28%;
+  -webkit-box-shadow: 10px 10px 10px 10px #888888;
+          box-shadow: 10px 10px 10px 10px #888888;
+  text-align: center;
+  height: 290px;
+  border-radius: 5px;
+}
+
+.downloads .download_chrome img {
+  margin-top: 20px;
+}
+
+.downloads .download_chrome button {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #5368df;
+  color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.downloads .download_firefox {
+  position: absolute;
+  margin-bottom: 50px;
+  width: 28%;
+  -webkit-box-shadow: 10px 10px 10px 10px #888888;
+          box-shadow: 10px 10px 10px 10px #888888;
+  text-align: center;
+  height: 290px;
+  left: 380px;
+  top: 61px;
+  border-radius: 5px;
+}
+
+.downloads .download_firefox img {
+  margin-top: 20px;
+}
+
+.downloads .download_firefox button {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #5368df;
+  color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.downloads .download_opera {
+  position: absolute;
+  margin-bottom: 50px;
+  width: 28%;
+  -webkit-box-shadow: 10px 10px 10px 10px #888888;
+          box-shadow: 10px 10px 10px 10px #888888;
+  text-align: center;
+  height: 290px;
+  left: 780px;
+  top: 120px;
+  border-radius: 5px;
+}
+
+.downloads .download_opera img {
+  margin-top: 20px;
+}
+
+.downloads .download_opera button {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #5368df;
+  color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
 body {
   background: #fff;
   height: 100vh;
